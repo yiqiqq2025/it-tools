@@ -59,7 +59,7 @@ const tools = computed<ToolCategory[]>(() => [
           <div>
             IT-Tools
 
-            <c-link target="_blank" rel="noopener" :href="`https://github.com/yiqiqq2025/it-tools/tree/v${version}`">
+            <c-link target="_blank" rel="noopener" :href="`https://yiqiqq.com`">
               v{{ version }}
             </c-link>
 
@@ -69,7 +69,7 @@ const tools = computed<ToolCategory[]>(() => [
                 target="_blank"
                 rel="noopener"
                 type="primary"
-                :href="`https://github.com/yiqiqq2025/it-tools/tree/${commitSha}`"
+                :href="`https://yiqiqq.com`"
               >
                 {{ commitSha }}
               </c-link>
@@ -77,7 +77,7 @@ const tools = computed<ToolCategory[]>(() => [
           </div>
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://yiqiqq2025?utm_source=it-tools&utm_medium=footer">
+            <c-link target="_blank" rel="noopener" href="https://yiqiqq.com">
               YiQiQQ
             </c-link>
           </div>
